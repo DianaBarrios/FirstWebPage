@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Diana's Web Page
+    </title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>My First Web Page</h1>
+    <p>
+      This is my first paragraph. Pretty cool right?
+    </p>
+    <p>
+        <a href="https://www.google.com/">
+          Questions?
+        </a>
+    </p>
+    
+    <img src="./assets/pp.png" alt="Diana's picture" height="200" width="200"/>
+
+    <form>
+      <fieldset>
+        <legend>
+          We want to know more about you!
+        </legend>
+        <div>
+          <label for="user-name">
+            Username:
+          </label>
+          <input type="text" id="user-name" class="info" name="user"/>
+        </div>
+        <div>
+            <label for="user-name"> 
+                Password:
+              </label>
+            <input type="password"/>
+        </div>
+        <div>
+          <label for="country">
+            Select a country
+          </label>
+          <select id="country" name="country">
+            <option value="MX">
+              Mexico
+            </option>
+            <option value="FR">
+                France
+              </option>
+          </select>
+        </div>
+        <div>
+            <label for="age_range">
+                Age range:
+            </label>
+            <div>
+              <label fo="range_1">
+                From 10-20
+              </label>
+              <input type="radio" value="10-20" id="range_1" name="age_range"/>
+            </div>
+            <div>
+                <label fo="range_2">
+                  From 21-30
+                </label>
+                <input type="radio" value="21-30" id="range_2" name="age_range"/>
+            </div>
+        </div>
+        <div>
+          <!--<input type="submit" value="submit"/> !-->
+          <button tye="submit">
+            Submit information
+          </button>
+
+        </div>
+      </fieldset>
+    </form>
+    
+
+
+  </body>
+</html>
